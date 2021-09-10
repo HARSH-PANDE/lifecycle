@@ -6,7 +6,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         println("On create Called")
-            //finish() //finish method called in onCreate()
+            finish() //finish method called in onCreate()
+
+        // made change on onCreate
         }
     override fun onDestroy() {
         super.onDestroy()
